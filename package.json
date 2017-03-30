@@ -1,0 +1,21 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "acli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vorpal": "^1.11.4",
+    "always-tail": "^0.2.0",
+    "always-tail2": "^1.0.0",
+    "tail": "^1.2.1",
+    "zmq": "^2.15.3"
+  },
+  "bin": {
+  "acli": "./acli.js"
+  }
+}
